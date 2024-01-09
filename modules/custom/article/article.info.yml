@@ -1,0 +1,8 @@
+name: Article Block
+description: A simple module to demonstrate Block test.
+core: 8.x
+package: Custom
+dependencies:
+- node
+- block
+type: module

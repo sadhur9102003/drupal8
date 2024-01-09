@@ -1,0 +1,11 @@
+csslib:
+  version: 1.x
+  css:
+    component:
+      css/custom2.css: {}
+  js:
+    js/custom3.js: {}
+  dependencies:
+    - core/jquery
+     
+  

@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ *
+ * We use hook_theme to define the templates used.
+ */
+function lastlogin_theme($existing, $type, $theme, $path) {
+  return [
+    'context_block2' => [
+      'variables' => [
+        'name' => NULL,
+      ],
+    ],
+  ];
+}
+
+?>
+

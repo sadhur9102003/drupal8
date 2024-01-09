@@ -1,0 +1,5 @@
+# Schema for the theme setting configuration file of the THEMETITLE theme.
+
+cus_boo.settings:
+  type: theme_settings
+  label: 'Custom Bootstap Base Theme Settings'
