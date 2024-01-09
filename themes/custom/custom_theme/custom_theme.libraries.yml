@@ -1,0 +1,22 @@
+global-styling:
+  version: 1.x
+  js:
+    # js/script.js: {}
+    js/bootstrap.bundle.min.js: {}
+    js/glightbox.min.js: {}
+    js/purecounter_vanilla.js: {}
+    js/isotope.pkgd.min.js: {}
+    js/swiper-bundle.min.js: {}
+    js/aos.js: {}
+    js/validate.js: {}
+    js/main.js: {}
+  css:
+    theme:
+      #  css/style.css: {}
+      https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap: {}
+      css/bootstrap.min.css: {}
+      css/bootstrap-icons.css: {}
+      css/glightbox.min.css: {}
+      css/swiper-bundle.min.css: {}
+      css/aos.css: {}
+      css/main.css: {}
