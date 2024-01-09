@@ -1,0 +1,32 @@
+uuid: 9c73cb18-2cce-4a3e-9446-d94b460a3c23
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_par1
+    - node.type.par
+  module:
+    - entity_reference_revisions
+id: node.par.field_par1
+field_name: field_par1
+entity_type: node
+bundle: par
+label: par1
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: {  }
+    target_bundles_drag_drop:
+      par1:
+        weight: 2
+        enabled: false
+      par2:
+        enabled: true
+        weight: 4
+field_type: entity_reference_revisions

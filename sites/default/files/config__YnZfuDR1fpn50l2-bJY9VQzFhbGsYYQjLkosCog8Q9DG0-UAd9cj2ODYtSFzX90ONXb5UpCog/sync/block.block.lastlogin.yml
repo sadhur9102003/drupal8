@@ -1,0 +1,28 @@
+uuid: d091089d-bee9-433c-9ca0-3d9288386a45
+langcode: en
+status: true
+dependencies:
+  module:
+    - lastlogin
+    - node
+  theme:
+    - bartik
+id: lastlogin
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: lastlogin
+settings:
+  id: lastlogin
+  label: lastlogin
+  provider: lastlogin
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      sadhur: sadhur
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

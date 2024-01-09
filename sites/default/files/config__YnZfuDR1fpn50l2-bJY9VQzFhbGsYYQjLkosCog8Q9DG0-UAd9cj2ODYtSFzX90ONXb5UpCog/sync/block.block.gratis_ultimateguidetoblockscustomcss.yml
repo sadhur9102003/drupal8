@@ -1,0 +1,28 @@
+uuid: 95d23090-bf84-411a-ad6c-56f16e10bb0a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - ultimate_block_guide
+  theme:
+    - gratis
+id: gratis_ultimateguidetoblockscustomcss
+theme: gratis
+region: content
+weight: 0
+provider: null
+plugin: ultimate_block_custom_css
+settings:
+  id: ultimate_block_custom_css
+  label: 'Ultimate guide to blocks: custom CSS'
+  provider: ultimate_block_guide
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      sadhur: sadhur
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

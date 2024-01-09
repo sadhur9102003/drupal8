@@ -1,0 +1,31 @@
+uuid: e79ac865-ac66-4cfb-ba73-094890835798
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - block_class
+    - system
+  theme:
+    - cus_boo
+third_party_settings:
+  block_class:
+    classes: 'block wrapper'
+_core:
+  default_config_hash: 8a31Ywc1t2zlddGd3bmDrFMefWqgSK2E02ceFdr-bfc
+id: cus_boo_account_menu
+theme: cus_boo
+region: navigation
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

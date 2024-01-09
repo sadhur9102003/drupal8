@@ -1,0 +1,30 @@
+uuid: d71a81e1-0c34-4ec4-b856-92310a3de99e
+langcode: en
+status: true
+dependencies:
+  module:
+    - lastlogin
+    - node
+  theme:
+    - bartik
+id: lastloginguidetoblockscontext
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: lastlogin
+settings:
+  id: lastlogin
+  label: 'lastlogin guide to blocks: Context'
+  provider: lastlogin
+  label_display: visible
+  context_mapping:
+    user: '@user.current_user_context:current_user'
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      sadhur: sadhur
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

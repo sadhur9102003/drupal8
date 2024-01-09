@@ -1,0 +1,28 @@
+uuid: 81ff503f-2e7c-4be2-a241-7b026f35d90c
+langcode: en
+status: true
+dependencies:
+  module:
+    - lastlogin
+    - node
+  theme:
+    - cus_gratis
+id: cus_gratis_lastlogin
+theme: cus_gratis
+region: content
+weight: 0
+provider: null
+plugin: lastlogin
+settings:
+  id: lastlogin
+  label: lastlogin
+  provider: lastlogin
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      sadhur: sadhur
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

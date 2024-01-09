@@ -1,0 +1,39 @@
+uuid: b393ce60-9517-4e12-8c15-72138b7ff729
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - block_class
+    - node
+    - system
+  theme:
+    - gratis
+third_party_settings:
+  block_class:
+    classes: 'block  wrapper'
+_core:
+  default_config_hash: ChCx7DYNUrPTt5uiRdQAPDKJQMc-_SyAQTrZh8H0o-c
+id: gratis_main_menu
+theme: gratis
+region: footer_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      sadhur: sadhur
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

@@ -1,0 +1,30 @@
+uuid: 45cbc0cd-a2cb-45bb-b833-1e3b0136150d
+langcode: en
+status: false
+dependencies:
+  module:
+    - node
+    - ultimate_block_guide
+  theme:
+    - custom_theme
+id: custom_theme_ultimateguidetoblockscontext
+theme: custom_theme
+region: content
+weight: 0
+provider: null
+plugin: ultimate_block_context
+settings:
+  id: ultimate_block_context
+  label: 'Ultimate guide to blocks: Context'
+  provider: ultimate_block_guide
+  label_display: visible
+  context_mapping:
+    user: '@user.current_user_context:current_user'
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      sadhur: sadhur
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

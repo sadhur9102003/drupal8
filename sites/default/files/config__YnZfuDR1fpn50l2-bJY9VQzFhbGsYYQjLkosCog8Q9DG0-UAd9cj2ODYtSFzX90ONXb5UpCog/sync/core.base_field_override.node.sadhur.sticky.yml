@@ -1,0 +1,22 @@
+uuid: b5ef047d-09fb-433f-8a8d-e0caa207ff91
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sadhur
+id: node.sadhur.sticky
+field_name: sticky
+entity_type: node
+bundle: sadhur
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

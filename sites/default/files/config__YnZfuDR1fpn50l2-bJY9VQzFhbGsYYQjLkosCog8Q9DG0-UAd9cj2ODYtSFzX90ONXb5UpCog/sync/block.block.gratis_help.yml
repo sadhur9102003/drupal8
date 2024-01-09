@@ -1,0 +1,22 @@
+uuid: 142a21c0-c6fb-4996-8226-7f4c02f7c72a
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - gratis
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: gratis_help
+theme: gratis
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

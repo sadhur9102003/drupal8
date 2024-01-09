@@ -1,0 +1,28 @@
+uuid: bb909729-1c53-4ab3-b145-ed0b02906759
+langcode: en
+status: false
+dependencies:
+  module:
+    - lastlogin
+    - node
+  theme:
+    - custom_theme
+id: custom_theme_lastlogin
+theme: custom_theme
+region: content
+weight: 0
+provider: null
+plugin: lastlogin
+settings:
+  id: lastlogin
+  label: lastlogin
+  provider: lastlogin
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      sadhur: sadhur
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

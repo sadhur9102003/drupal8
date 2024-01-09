@@ -1,0 +1,22 @@
+uuid: 2db4f569-a49c-4223-8018-291463b0f279
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gratis
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: gratis_breadcrumbs
+theme: gratis
+region: footer_first
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

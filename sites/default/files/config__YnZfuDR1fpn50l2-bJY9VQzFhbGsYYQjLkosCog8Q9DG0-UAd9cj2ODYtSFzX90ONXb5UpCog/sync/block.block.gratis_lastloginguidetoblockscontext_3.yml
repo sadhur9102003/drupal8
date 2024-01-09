@@ -1,0 +1,30 @@
+uuid: 62140319-3b4c-49ce-9cb0-9c7d5f1896cb
+langcode: en
+status: true
+dependencies:
+  module:
+    - lastlogin
+    - node
+  theme:
+    - gratis
+id: gratis_lastloginguidetoblockscontext_3
+theme: gratis
+region: content
+weight: 0
+provider: null
+plugin: lastlogin
+settings:
+  id: lastlogin
+  label: 'lastlogin guide to blocks: Context'
+  provider: lastlogin
+  label_display: visible
+  context_mapping:
+    user: '@user.current_user_context:current_user'
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      par: par
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

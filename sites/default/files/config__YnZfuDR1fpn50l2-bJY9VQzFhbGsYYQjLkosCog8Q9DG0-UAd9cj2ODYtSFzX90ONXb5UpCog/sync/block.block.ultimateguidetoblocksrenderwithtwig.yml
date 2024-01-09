@@ -1,0 +1,28 @@
+uuid: f62293e3-d584-4a3f-abc9-6a55fa68bb94
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - ultimate_block_guide
+  theme:
+    - bartik
+id: ultimateguidetoblocksrenderwithtwig
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: ultimate_block_basic_twig
+settings:
+  id: ultimate_block_basic_twig
+  label: 'Ultimate guide to blocks: render with twig'
+  provider: ultimate_block_guide
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      sadhur: sadhur
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

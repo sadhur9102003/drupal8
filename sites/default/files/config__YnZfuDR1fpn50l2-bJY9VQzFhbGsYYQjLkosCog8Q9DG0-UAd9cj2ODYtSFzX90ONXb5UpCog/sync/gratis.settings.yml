@@ -1,0 +1,13 @@
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  logo: true
+  name: true
+  node_user_picture: true
+  slogan: true
+theme_color_palette: orange
+gratis_setfonts: true
+gratis_page_style: default
+_core:
+  default_config_hash: HwLPL49WKYoKyVbSs5WraHqKdBcsGksuyP65eV4a09c

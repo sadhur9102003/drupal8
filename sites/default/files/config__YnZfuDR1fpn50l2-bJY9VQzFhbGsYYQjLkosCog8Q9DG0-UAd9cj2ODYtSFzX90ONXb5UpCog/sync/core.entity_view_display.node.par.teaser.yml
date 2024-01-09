@@ -1,0 +1,32 @@
+uuid: 56025df3-8447-49df-b287-9cf64d5a4efd
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.par.body
+    - field.field.node.par.field_par1
+    - node.type.par
+  module:
+    - text
+    - user
+id: node.par.teaser
+targetEntityType: node
+bundle: par
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_par1: true

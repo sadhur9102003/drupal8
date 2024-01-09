@@ -1,0 +1,39 @@
+uuid: 1cf4d22f-28be-44cc-b60b-ac5d6ad18165
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.par.body
+    - field.field.node.par.field_par1
+    - node.type.par
+  module:
+    - entity_reference_revisions
+    - text
+    - user
+id: node.par.default
+targetEntityType: node
+bundle: par
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_par1:
+    type: entity_reference_revisions_entity_view
+    weight: 102
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

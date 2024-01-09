@@ -1,0 +1,28 @@
+uuid: 0a697439-c01c-4297-a30e-2112a4e35142
+langcode: en
+status: false
+dependencies:
+  module:
+    - node
+    - ultimate_block_guide
+  theme:
+    - cus_boo
+id: cus_boo_ultimateguidetoblocksrenderwithtwig
+theme: cus_boo
+region: content
+weight: 0
+provider: null
+plugin: ultimate_block_basic_twig
+settings:
+  id: ultimate_block_basic_twig
+  label: 'Ultimate guide to blocks: render with twig'
+  provider: ultimate_block_guide
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      sadhur: sadhur
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

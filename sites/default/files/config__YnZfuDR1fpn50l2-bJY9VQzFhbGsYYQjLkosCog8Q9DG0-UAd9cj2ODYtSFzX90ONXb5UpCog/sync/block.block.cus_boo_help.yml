@@ -1,0 +1,22 @@
+uuid: 17d24b4f-d56f-441d-9cac-6f9bbf7483c5
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - cus_boo
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: cus_boo_help
+theme: cus_boo
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

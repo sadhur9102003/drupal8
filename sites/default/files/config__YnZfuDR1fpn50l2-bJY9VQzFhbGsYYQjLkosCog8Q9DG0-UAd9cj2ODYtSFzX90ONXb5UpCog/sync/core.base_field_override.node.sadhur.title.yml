@@ -1,0 +1,18 @@
+uuid: 3aa49af2-291a-495d-83e7-eb63b3fa93aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sadhur
+id: node.sadhur.title
+field_name: title
+entity_type: node
+bundle: sadhur
+label: sadhur
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

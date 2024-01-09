@@ -1,0 +1,28 @@
+uuid: d8d6f201-e058-41f6-8eb6-7c43fcf80b30
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - ultimate_block_guide
+  theme:
+    - gratis
+id: gratis_ultimateguidetoblocksrenderwithtwig
+theme: gratis
+region: content
+weight: 0
+provider: null
+plugin: ultimate_block_basic_twig
+settings:
+  id: ultimate_block_basic_twig
+  label: 'Ultimate guide to blocks: render with twig'
+  provider: ultimate_block_guide
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      sadhur: sadhur
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

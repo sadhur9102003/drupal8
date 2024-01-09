@@ -1,0 +1,23 @@
+uuid: e0596bc2-82cc-4f02-83ce-0ddc1e399047
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.sadhur
+  module:
+    - text
+id: node.sadhur.body
+field_name: body
+entity_type: node
+bundle: sadhur
+label: sadhur
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

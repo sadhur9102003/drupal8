@@ -1,0 +1,20 @@
+uuid: d545fe76-a7da-4a75-8f18-9f6241e83922
+langcode: en
+status: true
+dependencies:
+  theme:
+    - cus_gratis
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: cus_gratis_page_title
+theme: cus_gratis
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

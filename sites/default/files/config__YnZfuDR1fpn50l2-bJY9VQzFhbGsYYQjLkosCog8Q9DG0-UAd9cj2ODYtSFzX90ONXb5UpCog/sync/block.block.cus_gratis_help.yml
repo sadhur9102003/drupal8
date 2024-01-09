@@ -1,0 +1,22 @@
+uuid: ef3a0139-9039-408b-82cf-24b86e2db5ec
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - cus_gratis
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: cus_gratis_help
+theme: cus_gratis
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

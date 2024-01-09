@@ -1,0 +1,28 @@
+uuid: e244feef-ef7f-47e5-842d-65b1274c8e2a
+langcode: en
+status: true
+dependencies:
+  module:
+    - article
+    - node
+  theme:
+    - gratis
+id: gratis_articleblock
+theme: gratis
+region: footer_first
+weight: 0
+provider: null
+plugin: article_block
+settings:
+  id: article_block
+  label: 'Article block'
+  provider: article
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      sadhur: sadhur
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

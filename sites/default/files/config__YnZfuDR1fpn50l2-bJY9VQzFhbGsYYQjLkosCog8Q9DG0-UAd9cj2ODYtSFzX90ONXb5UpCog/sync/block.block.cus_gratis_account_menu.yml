@@ -1,0 +1,31 @@
+uuid: 733cf831-98d6-42bf-b3f8-517d0d12c42f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - block_class
+    - system
+  theme:
+    - cus_gratis
+third_party_settings:
+  block_class:
+    classes: 'block wrapper'
+_core:
+  default_config_hash: 8a31Ywc1t2zlddGd3bmDrFMefWqgSK2E02ceFdr-bfc
+id: cus_gratis_account_menu
+theme: cus_gratis
+region: footer_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

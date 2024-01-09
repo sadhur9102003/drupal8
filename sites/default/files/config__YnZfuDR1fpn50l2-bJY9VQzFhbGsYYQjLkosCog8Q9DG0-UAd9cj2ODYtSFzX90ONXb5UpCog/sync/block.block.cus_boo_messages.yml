@@ -1,0 +1,22 @@
+uuid: 43cc7869-d6b4-4b5d-97e3-cb3550a26ce1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cus_boo
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: cus_boo_messages
+theme: cus_boo
+region: navigation
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

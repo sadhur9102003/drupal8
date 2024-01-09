@@ -1,0 +1,20 @@
+uuid: 1094cd54-05e7-496d-b68e-d4eb6c99432a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - cus_gratis
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: cus_gratis_local_actions
+theme: cus_gratis
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

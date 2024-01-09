@@ -1,0 +1,28 @@
+uuid: 4450c40d-192e-4644-be24-a8bc568c8bad
+langcode: en
+status: true
+dependencies:
+  module:
+    - article
+    - node
+  theme:
+    - bartik
+id: articleblock
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: article_block
+settings:
+  id: article_block
+  label: 'Article block'
+  provider: article
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      sadhur: sadhur
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

@@ -1,0 +1,28 @@
+uuid: 792a73a2-32d6-4997-a497-59032e322f55
+langcode: en
+status: true
+dependencies:
+  module:
+    - article
+    - node
+  theme:
+    - custom_theme
+id: custom_theme_articleblock
+theme: custom_theme
+region: branding
+weight: 0
+provider: null
+plugin: article_block
+settings:
+  id: article_block
+  label: 'Article block'
+  provider: article
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      sadhur: sadhur
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

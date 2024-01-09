@@ -1,0 +1,22 @@
+uuid: fe8afc3f-ea7a-4870-bb83-c668d6de1c9f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cus_gratis
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: cus_gratis_messages
+theme: cus_gratis
+region: footer_first
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

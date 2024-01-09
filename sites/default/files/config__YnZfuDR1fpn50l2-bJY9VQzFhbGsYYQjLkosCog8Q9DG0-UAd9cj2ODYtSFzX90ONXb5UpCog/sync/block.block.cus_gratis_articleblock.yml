@@ -1,0 +1,28 @@
+uuid: 52706241-b9f5-4363-8557-aca21db9eff7
+langcode: en
+status: true
+dependencies:
+  module:
+    - article
+    - node
+  theme:
+    - cus_gratis
+id: cus_gratis_articleblock
+theme: cus_gratis
+region: footer_first
+weight: 0
+provider: null
+plugin: article_block
+settings:
+  id: article_block
+  label: 'Article block'
+  provider: article
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      sadhur: sadhur
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

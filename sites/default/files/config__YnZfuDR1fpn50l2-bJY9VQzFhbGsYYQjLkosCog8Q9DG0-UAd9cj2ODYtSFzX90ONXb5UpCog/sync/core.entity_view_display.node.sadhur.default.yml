@@ -1,0 +1,56 @@
+uuid: 7ea18f03-f33d-4126-b569-1870385d1bc9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.sadhur.body
+    - field.field.node.sadhur.field_group
+    - node.type.sadhur
+  module:
+    - field_group
+    - image
+    - text
+    - user
+third_party_settings:
+  field_group:
+    group_drop:
+      children:
+        - links
+        - field_group
+      parent_name: ''
+      weight: 1
+      format_type: accordion
+      region: content
+      format_settings:
+        show_empty_fields: false
+        id: ''
+        classes: ''
+        effect: bounceslide
+      label: drop
+id: node.sadhur.default
+targetEntityType: node
+bundle: sadhur
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_group:
+    weight: 3
+    label: visually_hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

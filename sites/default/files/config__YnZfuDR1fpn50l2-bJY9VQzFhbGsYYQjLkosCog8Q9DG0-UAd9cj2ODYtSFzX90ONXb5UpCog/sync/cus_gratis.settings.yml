@@ -1,0 +1,11 @@
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  logo: true
+  name: true
+  node_user_picture: true
+  slogan: true
+theme_color_palette: orange
+_core:
+  default_config_hash: E8fvyCEKa0UMQMKQ5jgS2JSR4kUkSAF7izOXG-8XbeU

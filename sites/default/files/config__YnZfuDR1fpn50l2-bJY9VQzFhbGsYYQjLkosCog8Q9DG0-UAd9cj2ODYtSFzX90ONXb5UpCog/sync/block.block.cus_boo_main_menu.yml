@@ -1,0 +1,31 @@
+uuid: 5c9528a5-2cc5-4af2-abc3-418f51b28bc3
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - block_class
+    - system
+  theme:
+    - cus_boo
+third_party_settings:
+  block_class:
+    classes: 'block  wrapper'
+_core:
+  default_config_hash: ChCx7DYNUrPTt5uiRdQAPDKJQMc-_SyAQTrZh8H0o-c
+id: cus_boo_main_menu
+theme: cus_boo
+region: header
+weight: -11
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

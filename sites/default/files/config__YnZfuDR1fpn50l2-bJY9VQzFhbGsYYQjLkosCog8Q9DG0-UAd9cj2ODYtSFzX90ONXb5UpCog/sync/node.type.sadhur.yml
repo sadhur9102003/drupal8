@@ -1,0 +1,17 @@
+uuid: f840de0c-7884-478c-a646-54e396eaf5e8
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: sadhur
+type: sadhur
+description: 'I am a Developer.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

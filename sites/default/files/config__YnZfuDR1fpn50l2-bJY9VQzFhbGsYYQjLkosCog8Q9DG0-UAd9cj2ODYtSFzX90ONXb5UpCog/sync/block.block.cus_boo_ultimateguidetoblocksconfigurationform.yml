@@ -1,0 +1,29 @@
+uuid: 6337cf83-95cc-449a-ad96-b339bc277aaa
+langcode: en
+status: false
+dependencies:
+  module:
+    - node
+    - ultimate_block_guide
+  theme:
+    - cus_boo
+id: cus_boo_ultimateguidetoblocksconfigurationform
+theme: cus_boo
+region: content
+weight: 0
+provider: null
+plugin: ultimate_block_basic_config
+settings:
+  id: ultimate_block_basic_config
+  label: 'Ultimate guide to blocks: configuration form'
+  provider: ultimate_block_guide
+  label_display: visible
+  message: ''
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      sadhur: sadhur
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

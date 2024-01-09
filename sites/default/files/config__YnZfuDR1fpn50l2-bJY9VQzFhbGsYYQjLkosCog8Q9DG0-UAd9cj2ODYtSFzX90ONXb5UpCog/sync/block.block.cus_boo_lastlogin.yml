@@ -1,0 +1,28 @@
+uuid: fe96f4a5-118d-4d57-a5e0-31db0d534bb5
+langcode: en
+status: false
+dependencies:
+  module:
+    - lastlogin
+    - node
+  theme:
+    - cus_boo
+id: cus_boo_lastlogin
+theme: cus_boo
+region: content
+weight: 0
+provider: null
+plugin: lastlogin
+settings:
+  id: lastlogin
+  label: lastlogin
+  provider: lastlogin
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      sadhur: sadhur
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

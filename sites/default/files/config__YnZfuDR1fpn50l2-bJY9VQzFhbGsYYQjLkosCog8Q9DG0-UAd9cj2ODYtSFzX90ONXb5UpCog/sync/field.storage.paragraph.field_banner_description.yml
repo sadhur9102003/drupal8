@@ -1,0 +1,23 @@
+uuid: bb89ce15-89e0-4d10-bd5e-a9158ea5a846
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - paragraphs
+    - text
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: paragraph.field_banner_description
+field_name: field_banner_description
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

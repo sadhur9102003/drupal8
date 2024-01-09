@@ -1,0 +1,28 @@
+uuid: 1dde99d0-4bef-4801-a92a-ecf96b14215a
+langcode: en
+status: false
+dependencies:
+  module:
+    - article
+    - node
+  theme:
+    - cus_boo
+id: cus_boo_articleblock
+theme: cus_boo
+region: navigation
+weight: 0
+provider: null
+plugin: article_block
+settings:
+  id: article_block
+  label: 'Article block'
+  provider: article
+  label_display: visible
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      sadhur: sadhur
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

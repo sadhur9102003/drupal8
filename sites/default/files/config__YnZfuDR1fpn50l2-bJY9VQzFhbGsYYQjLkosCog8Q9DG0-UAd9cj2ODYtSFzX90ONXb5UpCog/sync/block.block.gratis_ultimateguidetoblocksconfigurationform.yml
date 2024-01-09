@@ -1,0 +1,29 @@
+uuid: a1a1a29a-7ca3-42b0-91a9-9cfdfd86b219
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - ultimate_block_guide
+  theme:
+    - gratis
+id: gratis_ultimateguidetoblocksconfigurationform
+theme: gratis
+region: content
+weight: 0
+provider: null
+plugin: ultimate_block_basic_config
+settings:
+  id: ultimate_block_basic_config
+  label: 'Ultimate guide to blocks: configuration form'
+  provider: ultimate_block_guide
+  label_display: visible
+  message: ''
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      sadhur: sadhur
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

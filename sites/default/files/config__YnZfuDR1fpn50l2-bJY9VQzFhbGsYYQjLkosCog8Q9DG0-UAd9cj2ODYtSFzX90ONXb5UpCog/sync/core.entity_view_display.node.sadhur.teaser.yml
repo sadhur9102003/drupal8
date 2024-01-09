@@ -1,0 +1,32 @@
+uuid: bcd7e13e-775b-4fdf-aec4-28d22dded4ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.sadhur.body
+    - field.field.node.sadhur.field_group
+    - node.type.sadhur
+  module:
+    - text
+    - user
+id: node.sadhur.teaser
+targetEntityType: node
+bundle: sadhur
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_group: true
